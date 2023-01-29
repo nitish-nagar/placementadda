@@ -34,3 +34,39 @@ NOTE: You will need to add PORT, MONGO_URI, SECRET_KEY and HOST in the .env file
 ```
 
 To access the project, visit http://localhost:8080
+## Screenshots
+
+### Homepage ###
+
+![App Screenshot](https://github.com/nitish-nagar/placementadda/blob/master/screenshots/homepage.png?raw=true)
+
+### Companies ###
+
+![App Screenshot](https://github.com/nitish-nagar/placementadda/blob/master/screenshots/companies.png?raw=true)
+
+### Current Openings ###
+
+![App Screenshot](https://github.com/nitish-nagar/placementadda/blob/master/screenshots/openings.png?raw=true)
+
+### Company Profile ###
+
+![App Screenshot](https://github.com/nitish-nagar/placementadda/blob/master/screenshots/company-profile.png?raw=true)
+
+
+### Admin - Add Company ###
+
+![App Screenshot](https://github.com/nitish-nagar/placementadda/blob/master/screenshots/admin-add.png?raw=true)
+
+### Admin - Update Company ###
+
+![App Screenshot](https://github.com/nitish-nagar/placementadda/blob/master/screenshots/admin-update.png?raw=true)
+
+### Admin - Manage Students ###
+
+![App Screenshot](https://github.com/nitish-nagar/placementadda/blob/master/screenshots/admin-manage.png?raw=true)
+
+## Authors
+
+- [Pradeepraj Nadar](https://github.com/Pradeepraj21)
+- [Nitish Nagar](https://github.com/nitish-nagar)
+
