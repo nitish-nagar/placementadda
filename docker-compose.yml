@@ -1,0 +1,16 @@
+# yml version
+version:  '3'
+
+# Define all the services we need
+services:
+  app: #node application
+    restart:  always # automatically restart if the app fails
+    build:  . # build the image from the dockerfile present in the current directory
+    ports:
+      - "8080:8080" # map the ports as <host-port>:<container-port>. The container-port should be the same as the PORT defined in environment.
+    environment: # environment variables
+      - MONGO_URI=${{secrets.MONGO_URI}}
+    depends_on:
+      - mongo
+  mongo: # database
+    image:  "mongo"
